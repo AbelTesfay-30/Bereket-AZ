@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="pyBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3776AB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#26547C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pyYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD43B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5C800;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="#1E293B"/>
+  <g transform="translate(20, 20)">
+    <!-- Python Logo -->
+    <!-- Blue segment (top) -->
+    <path d="M40 5 C30 5 25 10 25 20 L25 28 L12 28 C7 28 3 32 3 37 L3 43 L18 43 L18 38 C18 33 22 33 27 33 L37 33 L37 5 Z" fill="url(#pyBlue)"/>
+    <circle cx="12" cy="37" r="4" fill="white"/>
+    
+    <!-- Yellow segment (bottom) -->
+    <path d="M10 55 C20 55 25 50 25 40 L25 32 L38 32 C43 32 47 28 47 23 L47 17 L32 17 L32 22 C32 27 28 27 23 27 L13 27 L13 55 Z" fill="url(#pyYellow)"/>
+    <circle cx="38" cy="23" r="4" fill="white"/>
+  </g>
+</svg>
